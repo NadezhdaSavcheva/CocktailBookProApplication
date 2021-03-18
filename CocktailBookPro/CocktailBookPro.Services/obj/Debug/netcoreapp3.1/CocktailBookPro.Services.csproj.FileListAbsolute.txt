@@ -1,0 +1,12 @@
+C:\Users\Nadi1\Desktop\New folder\CocktailBookPro\CocktailBookPro.Services\bin\Debug\netcoreapp3.1\CocktailBookPro.Services.deps.json
+C:\Users\Nadi1\Desktop\New folder\CocktailBookPro\CocktailBookPro.Services\bin\Debug\netcoreapp3.1\CocktailBookPro.Services.runtimeconfig.json
+C:\Users\Nadi1\Desktop\New folder\CocktailBookPro\CocktailBookPro.Services\bin\Debug\netcoreapp3.1\CocktailBookPro.Services.runtimeconfig.dev.json
+C:\Users\Nadi1\Desktop\New folder\CocktailBookPro\CocktailBookPro.Services\bin\Debug\netcoreapp3.1\CocktailBookPro.Services.dll
+C:\Users\Nadi1\Desktop\New folder\CocktailBookPro\CocktailBookPro.Services\bin\Debug\netcoreapp3.1\CocktailBookPro.Services.pdb
+C:\Users\Nadi1\Desktop\New folder\CocktailBookPro\CocktailBookPro.Services\obj\Debug\netcoreapp3.1\CocktailBookPro.Services.csprojAssemblyReference.cache
+C:\Users\Nadi1\Desktop\New folder\CocktailBookPro\CocktailBookPro.Services\obj\Debug\netcoreapp3.1\CocktailBookPro.Services.AssemblyInfoInputs.cache
+C:\Users\Nadi1\Desktop\New folder\CocktailBookPro\CocktailBookPro.Services\obj\Debug\netcoreapp3.1\CocktailBookPro.Services.AssemblyInfo.cs
+C:\Users\Nadi1\Desktop\New folder\CocktailBookPro\CocktailBookPro.Services\obj\Debug\netcoreapp3.1\CocktailBookPro.Services.csproj.CoreCompileInputs.cache
+C:\Users\Nadi1\Desktop\New folder\CocktailBookPro\CocktailBookPro.Services\obj\Debug\netcoreapp3.1\CocktailBookPro.Services.dll
+C:\Users\Nadi1\Desktop\New folder\CocktailBookPro\CocktailBookPro.Services\obj\Debug\netcoreapp3.1\CocktailBookPro.Services.pdb
+C:\Users\Nadi1\Desktop\New folder\CocktailBookPro\CocktailBookPro.Services\obj\Debug\netcoreapp3.1\CocktailBookPro.Services.genruntimeconfig.cache

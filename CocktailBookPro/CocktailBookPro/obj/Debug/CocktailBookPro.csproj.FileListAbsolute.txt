@@ -1,0 +1,4 @@
+C:\Users\Admin\source\repos\CocktailBookPro\CocktailBookPro\obj\Debug\CocktailBookPro.csprojAssemblyReference.cache
+C:\Users\Admin\source\repos\CocktailBookPro\CocktailBookPro\obj\Debug\CocktailBookPro.Properties.Resources.resources
+C:\Users\Admin\source\repos\CocktailBookPro\CocktailBookPro\obj\Debug\CocktailBookPro.csproj.GenerateResource.cache
+C:\Users\Admin\source\repos\CocktailBookPro\CocktailBookPro\obj\Debug\CocktailBookPro.csproj.CoreCompileInputs.cache
