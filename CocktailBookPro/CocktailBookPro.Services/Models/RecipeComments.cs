@@ -1,8 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-
-namespace CocktailBookPro.Services.Models
+﻿namespace CocktailBookPro.Services.Models
 {
+    /// <summary>
+    /// Stores information about the comments on each recipe.
+    /// </summary>
     public partial class RecipeComments
     {
         public int Id { get; set; }

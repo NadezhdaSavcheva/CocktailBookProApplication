@@ -6,7 +6,7 @@ using System.Linq;
 
 namespace CocktailBookPro.Services.DAO
 {
-    class UserDAO
+    public class UserDAO
     {
         private CocktailBookProDBContext context;
 

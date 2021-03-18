@@ -1,10 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 
 namespace CocktailBookPro.Services.Models
 {
     public partial class Logins
     {
+        /// <summary>
+        /// Stores application login information.
+        /// </summary>
         public Logins()
         {
             RecipeComments = new HashSet<RecipeComments>();

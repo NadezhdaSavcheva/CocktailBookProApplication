@@ -1,8 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-
-namespace CocktailBookPro.Services.Models
+﻿namespace CocktailBookPro.Services.Models
 {
+    /// <summary>
+    /// Stores information on the steps for preparing each recipe.
+    /// </summary>
     public partial class RecipeSteps
     {
         public int Id { get; set; }

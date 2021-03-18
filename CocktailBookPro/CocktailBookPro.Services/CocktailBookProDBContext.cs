@@ -1,10 +1,11 @@
-﻿using System;
+﻿using CocktailBookPro.Services.Models;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.EntityFrameworkCore.Metadata;
-using CocktailBookPro.Services.Models;
 
 namespace CocktailBookPro.Services
 {
+    /// <summary>
+    /// The context of the data base.
+    /// </summary>
     public partial class CocktailBookProDBContext : DbContext
     {
         public CocktailBookProDBContext()

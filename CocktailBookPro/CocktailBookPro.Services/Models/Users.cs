@@ -1,8 +1,10 @@
 ﻿using System;
-using System.Collections.Generic;
 
 namespace CocktailBookPro.Services.Models
 {
+    /// <summary>
+    /// Stores information for each user.
+    /// </summary>
     public partial class Users
     {
         public int Id { get; set; }

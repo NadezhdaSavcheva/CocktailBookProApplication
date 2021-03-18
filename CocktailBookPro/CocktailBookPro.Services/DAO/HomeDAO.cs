@@ -5,7 +5,10 @@ using System.Linq;
 
 namespace CocktailBookPro.Services.DAO
 {
-    class HomeDAO
+    /// <summary>
+    /// 
+    /// </summary>
+    public class HomeDAO
     {
         private CocktailBookProDBContext context;
 

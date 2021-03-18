@@ -1,8 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-
-namespace CocktailBookPro.Services.Models
+﻿namespace CocktailBookPro.Services.Models
 {
+    /// <summary>
+    /// A connecting table between the categories of ingredients and the ingredients for cocktails.
+    /// </summary>
     public partial class IngredientsCategoriesIngredients
     {
         public int IngredientCategoryId { get; set; }

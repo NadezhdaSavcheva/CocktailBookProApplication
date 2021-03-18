@@ -1,5 +1,5 @@
 ﻿
-namespace KursovProekt
+namespace CocktailBookPro.Presenter
 {
     partial class NewRecipeForm
     {
