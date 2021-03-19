@@ -7,7 +7,7 @@ using System.Linq;
 namespace CocktailBookPro.Services.DAO
 {
     /// <summary>
-    /// Data Access Object for registration and log in.
+    /// Data Access Object related to the registration and the log in.
     /// </summary>
     public class HomeDAO : IHomeDAO
     {
@@ -33,6 +33,12 @@ namespace CocktailBookPro.Services.DAO
             this.context.SaveChanges();
         }
 
+        /// <summary>
+        /// Method for the login information of a registrated user.
+        /// </summary>
+        /// <param name="username">The username of the user.</param>
+        /// <param name="password">The hashed password of the user.</param>
+        /// <returns>The user with these username and password.</returns>
         public Users Login(string username, string password)
         {
             var user = this.context.Logins
@@ -43,6 +49,11 @@ namespace CocktailBookPro.Services.DAO
             return user;
         }
 
+        /// <summary>
+        /// Checks if the username of the user is unused.
+        /// </summary>
+        /// <param name="username">The username of the user.</param>
+        /// <returns>True or false.</returns>
         public bool IsUsernameFree(string username)
         {
             bool isFree = this.context.Logins.Where(u => u.Username.Equals(username)).Any();

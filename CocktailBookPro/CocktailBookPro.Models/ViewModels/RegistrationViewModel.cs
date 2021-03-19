@@ -5,7 +5,7 @@ namespace CocktailBookPro.Business.ViewModels
     /// <summary>
     /// Model, which contains the properties needed for the registration.
     /// </summary>
-    class RegistrationViewModel
+    public class RegistrationViewModel
     {
         public string FirstName { get; set; }
         public string LastName { get; set; }

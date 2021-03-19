@@ -5,6 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\CocktailBookPro.Models\CocktailBookPro.Models.csproj" />
     <ProjectReference Include="..\CocktailBookPro.Services\CocktailBookPro.Services.csproj" />
   </ItemGroup>
 

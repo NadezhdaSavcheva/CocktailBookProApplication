@@ -3,6 +3,9 @@ using System.Collections.Generic;
 
 namespace CocktailBookPro.Services.Interfaces
 {
+    /// <summary>
+    /// Interface for the RecipeDAO.
+    /// </summary>
     interface IRecipeDAO
     {
         public int AddRecipe(string name, int userID, string description);

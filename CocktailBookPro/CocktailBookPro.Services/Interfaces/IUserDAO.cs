@@ -3,6 +3,9 @@ using System.Collections.Generic;
 
 namespace CocktailBookPro.Services.Interfaces
 {
+    /// <summary>
+    /// Interface for the UserDAO.
+    /// </summary>
     interface IUserDAO
     {
         public Users GetUserByID(int id);
@@ -15,6 +18,6 @@ namespace CocktailBookPro.Services.Interfaces
 
         public List<Users> GetAllUsers();
 
-        public string SearchForUserByUsername(string username);
+        public string GetUserByUsername(string username);
     }
 }
