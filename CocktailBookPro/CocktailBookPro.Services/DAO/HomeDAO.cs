@@ -1,4 +1,5 @@
-﻿using CocktailBookPro.Services.Models;
+﻿using CocktailBookPro.Services.Interfaces;
+using CocktailBookPro.Services.Models;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Linq;
@@ -6,9 +7,9 @@ using System.Linq;
 namespace CocktailBookPro.Services.DAO
 {
     /// <summary>
-    /// 
+    /// Data Access Object for registration and log in.
     /// </summary>
-    public class HomeDAO
+    public class HomeDAO : IHomeDAO
     {
         private CocktailBookProDBContext context;
 
@@ -22,6 +23,10 @@ namespace CocktailBookPro.Services.DAO
             this.context = context;
         }
 
+        /// <summary>
+        /// Adds new user in the data base.
+        /// </summary>
+        /// <param name="newUser">The information of the user who will be added.</param>
         public void RegisterUser(Users newUser)
         {
             this.context.Users.Add(newUser);

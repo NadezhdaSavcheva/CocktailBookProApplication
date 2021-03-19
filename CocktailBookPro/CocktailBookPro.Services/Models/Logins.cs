@@ -2,11 +2,11 @@
 
 namespace CocktailBookPro.Services.Models
 {
+    /// <summary>
+    /// Stores application login information.
+    /// </summary>
     public partial class Logins
     {
-        /// <summary>
-        /// Stores application login information.
-        /// </summary>
         public Logins()
         {
             RecipeComments = new HashSet<RecipeComments>();

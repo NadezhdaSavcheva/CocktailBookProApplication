@@ -1,4 +1,5 @@
-﻿using CocktailBookPro.Services.Models;
+﻿using CocktailBookPro.Services.Interfaces;
+using CocktailBookPro.Services.Models;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -6,7 +7,7 @@ using System.Linq;
 
 namespace CocktailBookPro.Services.DAO
 {
-    public class UserDAO
+    public class UserDAO : IUserDAO
     {
         private CocktailBookProDBContext context;
 
