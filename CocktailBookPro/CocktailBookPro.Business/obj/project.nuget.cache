@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "kSIHIcBwe9dezp5OQ8mEjVtiExW5eK9UfHRGFIZWop5IlWsh7fMDmgQ+Bw0geTEQ2iDU+ZjCvicbeDf5EllxYA==",
+  "dgSpecHash": "PKyLzK2gJoY1XAOgrupjP0xUhWbmLVFlsKBOkNf3WNBUfsOpe+44RCnqei/1RDtAuyxl9ynHdj4rTGic12Og/w==",
   "success": true,
   "projectFilePath": "C:\\Users\\Nadi1\\Source\\Repos\\NadezhdaSavcheva\\CocktailBookProApplication\\CocktailBookPro\\CocktailBookPro.Business\\CocktailBookPro.Business.csproj",
   "expectedPackageFiles": [
@@ -111,10 +111,7 @@
     "C:\\Users\\Nadi1\\.nuget\\packages\\system.xml.xdocument\\4.0.11\\system.xml.xdocument.4.0.11.nupkg.sha512",
     "C:\\Users\\Nadi1\\.nuget\\packages\\system.xml.xmldocument\\4.0.1\\system.xml.xmldocument.4.0.1.nupkg.sha512",
     "C:\\Users\\Nadi1\\.nuget\\packages\\system.xml.xpath\\4.0.1\\system.xml.xpath.4.0.1.nupkg.sha512",
-    "C:\\Users\\Nadi1\\.nuget\\packages\\system.xml.xpath.xmldocument\\4.0.1\\system.xml.xpath.xmldocument.4.0.1.nupkg.sha512",
-    "C:\\Users\\Nadi1\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
-    "C:\\Users\\Nadi1\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512",
-    "C:\\Users\\Nadi1\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512"
+    "C:\\Users\\Nadi1\\.nuget\\packages\\system.xml.xpath.xmldocument\\4.0.1\\system.xml.xpath.xmldocument.4.0.1.nupkg.sha512"
   ],
   "logs": []
 }
