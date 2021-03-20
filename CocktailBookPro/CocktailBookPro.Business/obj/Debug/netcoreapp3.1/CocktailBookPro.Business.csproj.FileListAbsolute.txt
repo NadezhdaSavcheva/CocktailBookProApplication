@@ -1,0 +1,14 @@
+C:\Users\Nadi1\Source\Repos\NadezhdaSavcheva\CocktailBookProApplication\CocktailBookPro\CocktailBookPro.Business\bin\Debug\netcoreapp3.1\CocktailBookPro.Business.deps.json
+C:\Users\Nadi1\Source\Repos\NadezhdaSavcheva\CocktailBookProApplication\CocktailBookPro\CocktailBookPro.Business\bin\Debug\netcoreapp3.1\CocktailBookPro.Business.dll
+C:\Users\Nadi1\Source\Repos\NadezhdaSavcheva\CocktailBookProApplication\CocktailBookPro\CocktailBookPro.Business\bin\Debug\netcoreapp3.1\CocktailBookPro.Business.pdb
+C:\Users\Nadi1\Source\Repos\NadezhdaSavcheva\CocktailBookProApplication\CocktailBookPro\CocktailBookPro.Business\bin\Debug\netcoreapp3.1\CocktailBookPro.Models.dll
+C:\Users\Nadi1\Source\Repos\NadezhdaSavcheva\CocktailBookProApplication\CocktailBookPro\CocktailBookPro.Business\bin\Debug\netcoreapp3.1\CocktailBookPro.Services.dll
+C:\Users\Nadi1\Source\Repos\NadezhdaSavcheva\CocktailBookProApplication\CocktailBookPro\CocktailBookPro.Business\bin\Debug\netcoreapp3.1\CocktailBookPro.Models.pdb
+C:\Users\Nadi1\Source\Repos\NadezhdaSavcheva\CocktailBookProApplication\CocktailBookPro\CocktailBookPro.Business\bin\Debug\netcoreapp3.1\CocktailBookPro.Services.pdb
+C:\Users\Nadi1\Source\Repos\NadezhdaSavcheva\CocktailBookProApplication\CocktailBookPro\CocktailBookPro.Business\obj\Debug\netcoreapp3.1\CocktailBookPro.Business.csprojAssemblyReference.cache
+C:\Users\Nadi1\Source\Repos\NadezhdaSavcheva\CocktailBookProApplication\CocktailBookPro\CocktailBookPro.Business\obj\Debug\netcoreapp3.1\CocktailBookPro.Business.AssemblyInfoInputs.cache
+C:\Users\Nadi1\Source\Repos\NadezhdaSavcheva\CocktailBookProApplication\CocktailBookPro\CocktailBookPro.Business\obj\Debug\netcoreapp3.1\CocktailBookPro.Business.AssemblyInfo.cs
+C:\Users\Nadi1\Source\Repos\NadezhdaSavcheva\CocktailBookProApplication\CocktailBookPro\CocktailBookPro.Business\obj\Debug\netcoreapp3.1\CocktailBookPro.Business.csproj.CoreCompileInputs.cache
+C:\Users\Nadi1\Source\Repos\NadezhdaSavcheva\CocktailBookProApplication\CocktailBookPro\CocktailBookPro.Business\obj\Debug\netcoreapp3.1\CocktailBookPro.Business.csproj.CopyComplete
+C:\Users\Nadi1\Source\Repos\NadezhdaSavcheva\CocktailBookProApplication\CocktailBookPro\CocktailBookPro.Business\obj\Debug\netcoreapp3.1\CocktailBookPro.Business.dll
+C:\Users\Nadi1\Source\Repos\NadezhdaSavcheva\CocktailBookProApplication\CocktailBookPro\CocktailBookPro.Business\obj\Debug\netcoreapp3.1\CocktailBookPro.Business.pdb

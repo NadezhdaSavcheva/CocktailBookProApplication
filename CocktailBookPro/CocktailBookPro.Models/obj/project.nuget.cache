@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "U0bu5ZgzHWIK+RZ4bJZtOjYYi4yOrk3I57+yqueDGMGhoGjcBMhUp1jt9r4FLHPN3alsH6dpgtHUED6EjILh0g==",
+  "dgSpecHash": "EVxbBwXl/EkISjqbYhNL0dpOn5INz1mavjh2/ZfFfYcoSsx4i4BnDplGcrOtOeah5KUdvN/q7dHiyuHJsbgYAg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Nadi1\\source\\repos\\NadezhdaSavcheva\\CocktailBookProApplication\\CocktailBookPro\\CocktailBookPro.Models\\CocktailBookPro.Models.csproj",
+  "projectFilePath": "C:\\Users\\Nadi1\\Source\\Repos\\NadezhdaSavcheva\\CocktailBookProApplication\\CocktailBookPro\\CocktailBookPro.Models\\CocktailBookPro.Models.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Nadi1\\.nuget\\packages\\bouncycastle.netcore\\1.8.3\\bouncycastle.netcore.1.8.3.nupkg.sha512",
     "C:\\Users\\Nadi1\\.nuget\\packages\\google.protobuf\\3.11.4\\google.protobuf.3.11.4.nupkg.sha512",

@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using CocktailBookPro.Business.Interfaces;
-using CocktailBookPro.Business.ViewModels;
+﻿using CocktailBookPro.Business.ViewModels;
 using CocktailBookPro.Services.DAO;
 using CocktailBookPro.Services.Models;
 
@@ -11,7 +7,7 @@ namespace CocktailBookPro.Business
     /// <summary>
     /// It is used for user management.
     /// </summary>
-    class UserController : IUserController
+    public class UserController : IUserController
     {
         private UserDAO userDAO = null;
         public UserController(UserDAO userDAO)

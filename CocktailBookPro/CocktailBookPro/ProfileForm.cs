@@ -20,14 +20,16 @@ namespace CocktailBookPro.Presenter
         private void showRecipesButton_Click(object sender, EventArgs e)
         {
             this.Hide();
-            // подаване на информация за потребителя
+            // п
             UserRecipesForm userRecipesForm = new UserRecipesForm();
             userRecipesForm.Show();
         }
 
         private void backButton_Click(object sender, EventArgs e)
         {
-
+            HomeForm homeForm = new HomeForm();
+            homeForm.Show();
+            this.Hide();
         }
     }
 }

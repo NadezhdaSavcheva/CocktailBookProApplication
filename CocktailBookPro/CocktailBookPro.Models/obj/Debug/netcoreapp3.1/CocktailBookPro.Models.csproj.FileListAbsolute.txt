@@ -1,0 +1,12 @@
+C:\Users\Nadi1\Source\Repos\NadezhdaSavcheva\CocktailBookProApplication\CocktailBookPro\CocktailBookPro.Models\bin\Debug\netcoreapp3.1\CocktailBookPro.Models.deps.json
+C:\Users\Nadi1\Source\Repos\NadezhdaSavcheva\CocktailBookProApplication\CocktailBookPro\CocktailBookPro.Models\bin\Debug\netcoreapp3.1\CocktailBookPro.Models.runtimeconfig.json
+C:\Users\Nadi1\Source\Repos\NadezhdaSavcheva\CocktailBookProApplication\CocktailBookPro\CocktailBookPro.Models\bin\Debug\netcoreapp3.1\CocktailBookPro.Models.runtimeconfig.dev.json
+C:\Users\Nadi1\Source\Repos\NadezhdaSavcheva\CocktailBookProApplication\CocktailBookPro\CocktailBookPro.Models\bin\Debug\netcoreapp3.1\CocktailBookPro.Models.dll
+C:\Users\Nadi1\Source\Repos\NadezhdaSavcheva\CocktailBookProApplication\CocktailBookPro\CocktailBookPro.Models\bin\Debug\netcoreapp3.1\CocktailBookPro.Models.pdb
+C:\Users\Nadi1\Source\Repos\NadezhdaSavcheva\CocktailBookProApplication\CocktailBookPro\CocktailBookPro.Models\obj\Debug\netcoreapp3.1\CocktailBookPro.Models.csprojAssemblyReference.cache
+C:\Users\Nadi1\Source\Repos\NadezhdaSavcheva\CocktailBookProApplication\CocktailBookPro\CocktailBookPro.Models\obj\Debug\netcoreapp3.1\CocktailBookPro.Models.AssemblyInfoInputs.cache
+C:\Users\Nadi1\Source\Repos\NadezhdaSavcheva\CocktailBookProApplication\CocktailBookPro\CocktailBookPro.Models\obj\Debug\netcoreapp3.1\CocktailBookPro.Models.AssemblyInfo.cs
+C:\Users\Nadi1\Source\Repos\NadezhdaSavcheva\CocktailBookProApplication\CocktailBookPro\CocktailBookPro.Models\obj\Debug\netcoreapp3.1\CocktailBookPro.Models.csproj.CoreCompileInputs.cache
+C:\Users\Nadi1\Source\Repos\NadezhdaSavcheva\CocktailBookProApplication\CocktailBookPro\CocktailBookPro.Models\obj\Debug\netcoreapp3.1\CocktailBookPro.Models.dll
+C:\Users\Nadi1\Source\Repos\NadezhdaSavcheva\CocktailBookProApplication\CocktailBookPro\CocktailBookPro.Models\obj\Debug\netcoreapp3.1\CocktailBookPro.Models.pdb
+C:\Users\Nadi1\Source\Repos\NadezhdaSavcheva\CocktailBookProApplication\CocktailBookPro\CocktailBookPro.Models\obj\Debug\netcoreapp3.1\CocktailBookPro.Models.genruntimeconfig.cache

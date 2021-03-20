@@ -8,7 +8,7 @@ namespace CocktailBookPro.Business
     /// <summary>
     /// It is used to registrate and to log in users into the application.
     /// </summary>
-    class HomeController : IHomeController
+    public class HomeController : IHomeController
     {
         private HomeDAO homeDAO = null;
         private RecipeDAO recipeDAO = null;

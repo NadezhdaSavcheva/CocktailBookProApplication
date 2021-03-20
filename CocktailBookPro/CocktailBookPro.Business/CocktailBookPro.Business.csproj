@@ -7,7 +7,6 @@
   <ItemGroup>
     <ProjectReference Include="..\CocktailBookPro.Models\CocktailBookPro.Models.csproj" />
     <ProjectReference Include="..\CocktailBookPro.Services\CocktailBookPro.Services.csproj" />
-    <ProjectReference Include="..\CocktailBookPro\CocktailBookPro.csproj" />
   </ItemGroup>
 
 </Project>
