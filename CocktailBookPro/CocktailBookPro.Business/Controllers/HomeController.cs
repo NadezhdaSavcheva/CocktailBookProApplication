@@ -1,6 +1,6 @@
 ﻿using CocktailBookPro.Business.Interfaces;
 using CocktailBookPro.Business.ViewModels;
-using CocktailBookPro.Services.DAO;
+using CocktailBookPro.Services.Interfaces;
 using CocktailBookPro.Services.Models;
 
 namespace CocktailBookPro.Business
@@ -10,10 +10,10 @@ namespace CocktailBookPro.Business
     /// </summary>
     public class HomeController : IHomeController
     {
-        private HomeDAO homeDAO = null;
-        private RecipeDAO recipeDAO = null;
-        private UserDAO userDAO = null;
-        public HomeController(HomeDAO homeDAO, RecipeDAO recipeDAO, UserDAO userDAO)
+        private IHomeDAO homeDAO = null;
+        private IRecipeDAO recipeDAO = null;
+        private IUserDAO userDAO = null;
+        public HomeController(IHomeDAO homeDAO, IRecipeDAO recipeDAO, IUserDAO userDAO)
         {
             this.homeDAO = homeDAO;
             this.recipeDAO = recipeDAO;

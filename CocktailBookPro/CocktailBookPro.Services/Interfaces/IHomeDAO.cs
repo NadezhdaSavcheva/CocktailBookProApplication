@@ -5,7 +5,7 @@ namespace CocktailBookPro.Services.Interfaces
     /// <summary>
     /// Interface for the HomeDAO.
     /// </summary>
-    interface IHomeDAO
+    public interface IHomeDAO
     {
         public void RegisterUser(Users newUser);
 

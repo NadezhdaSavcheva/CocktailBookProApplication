@@ -1,5 +1,5 @@
 ﻿using CocktailBookPro.Business.Interfaces;
-using CocktailBookPro.Services.DAO;
+using CocktailBookPro.Services.Interfaces;
 using CocktailBookPro.Services.Models;
 using System.Collections.Generic;
 
@@ -10,10 +10,10 @@ namespace CocktailBookPro.Business
     /// </summary>
     public class RecipeController : IRecipeController
     {
-        private readonly RecipeDAO recipeDAO;
-        private readonly UserDAO userDAO;
+        private readonly IRecipeDAO recipeDAO;
+        private readonly IUserDAO userDAO;
 
-        public RecipeController(RecipeDAO recipeDAO, UserDAO userDAO)
+        public RecipeController(IRecipeDAO recipeDAO, IUserDAO userDAO)
         {
             this.recipeDAO = recipeDAO;
             this.userDAO = userDAO;

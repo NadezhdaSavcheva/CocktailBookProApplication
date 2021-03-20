@@ -1,5 +1,5 @@
 ﻿using CocktailBookPro.Business.ViewModels;
-using CocktailBookPro.Services.DAO;
+using CocktailBookPro.Services.Interfaces;
 using CocktailBookPro.Services.Models;
 
 namespace CocktailBookPro.Business
@@ -9,8 +9,8 @@ namespace CocktailBookPro.Business
     /// </summary>
     public class UserController : IUserController
     {
-        private UserDAO userDAO = null;
-        public UserController(UserDAO userDAO)
+        private IUserDAO userDAO = null;
+        public UserController(IUserDAO userDAO)
         {
             this.userDAO = userDAO;
         }

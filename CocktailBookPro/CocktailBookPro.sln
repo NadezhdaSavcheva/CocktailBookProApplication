@@ -11,6 +11,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CocktailBookPro.Models", "C
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CocktailBookPro", "CocktailBookPro\CocktailBookPro.csproj", "{DF81E8F5-15E4-4AE5-8A4B-8AA9229B5394}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CocktailBookPro.Test", "CocktailBookPro.Test\CocktailBookPro.Test.csproj", "{CF74B7C6-6371-4712-ABBC-8C0C4ED39BE1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{DF81E8F5-15E4-4AE5-8A4B-8AA9229B5394}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DF81E8F5-15E4-4AE5-8A4B-8AA9229B5394}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DF81E8F5-15E4-4AE5-8A4B-8AA9229B5394}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF74B7C6-6371-4712-ABBC-8C0C4ED39BE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF74B7C6-6371-4712-ABBC-8C0C4ED39BE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF74B7C6-6371-4712-ABBC-8C0C4ED39BE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF74B7C6-6371-4712-ABBC-8C0C4ED39BE1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

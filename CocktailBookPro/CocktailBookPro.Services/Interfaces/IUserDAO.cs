@@ -6,7 +6,7 @@ namespace CocktailBookPro.Services.Interfaces
     /// <summary>
     /// Interface for the UserDAO.
     /// </summary>
-    interface IUserDAO
+    public interface IUserDAO
     {
         public Users GetUserByID(int id);
 
