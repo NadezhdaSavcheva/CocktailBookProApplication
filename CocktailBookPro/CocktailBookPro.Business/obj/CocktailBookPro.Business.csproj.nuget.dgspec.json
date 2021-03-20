@@ -37,6 +37,9 @@
               },
               "C:\\Users\\Nadi1\\source\\repos\\NadezhdaSavcheva\\CocktailBookProApplication\\CocktailBookPro\\CocktailBookPro.Services\\CocktailBookPro.Services.csproj": {
                 "projectPath": "C:\\Users\\Nadi1\\source\\repos\\NadezhdaSavcheva\\CocktailBookProApplication\\CocktailBookPro\\CocktailBookPro.Services\\CocktailBookPro.Services.csproj"
+              },
+              "C:\\Users\\Nadi1\\source\\repos\\NadezhdaSavcheva\\CocktailBookProApplication\\CocktailBookPro\\CocktailBookPro\\CocktailBookPro.csproj": {
+                "projectPath": "C:\\Users\\Nadi1\\source\\repos\\NadezhdaSavcheva\\CocktailBookProApplication\\CocktailBookPro\\CocktailBookPro\\CocktailBookPro.csproj"
               }
             }
           }
@@ -207,6 +210,16 @@
           },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
         }
+      }
+    },
+    "C:\\Users\\Nadi1\\source\\repos\\NadezhdaSavcheva\\CocktailBookProApplication\\CocktailBookPro\\CocktailBookPro\\CocktailBookPro.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Nadi1\\source\\repos\\NadezhdaSavcheva\\CocktailBookProApplication\\CocktailBookPro\\CocktailBookPro\\CocktailBookPro.csproj",
+        "projectName": "CocktailBookPro",
+        "projectPath": "C:\\Users\\Nadi1\\source\\repos\\NadezhdaSavcheva\\CocktailBookProApplication\\CocktailBookPro\\CocktailBookPro\\CocktailBookPro.csproj"
+      },
+      "frameworks": {
+        "net472": {}
       }
     }
   }

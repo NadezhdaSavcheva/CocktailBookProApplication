@@ -1780,6 +1780,15 @@
           "lib/netstandard1.3/System.Xml.XPath.XmlDocument.dll": {}
         }
       },
+      "CocktailBookPro/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/CocktailBookPro.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CocktailBookPro.dll": {}
+        }
+      },
       "CocktailBookPro.Models/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
@@ -6250,6 +6259,11 @@
         "system.xml.xpath.xmldocument.nuspec"
       ]
     },
+    "CocktailBookPro/1.0.0": {
+      "type": "project",
+      "path": "../CocktailBookPro/CocktailBookPro.csproj",
+      "msbuildProject": "../CocktailBookPro/CocktailBookPro.csproj"
+    },
     "CocktailBookPro.Models/1.0.0": {
       "type": "project",
       "path": "../CocktailBookPro.Models/CocktailBookPro.Models.csproj",
@@ -6263,6 +6277,7 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
+      "CocktailBookPro >= 1.0.0",
       "CocktailBookPro.Models >= 1.0.0",
       "CocktailBookPro.Services >= 1.0.0"
     ]
@@ -6304,6 +6319,9 @@
             },
             "C:\\Users\\Nadi1\\source\\repos\\NadezhdaSavcheva\\CocktailBookProApplication\\CocktailBookPro\\CocktailBookPro.Services\\CocktailBookPro.Services.csproj": {
               "projectPath": "C:\\Users\\Nadi1\\source\\repos\\NadezhdaSavcheva\\CocktailBookProApplication\\CocktailBookPro\\CocktailBookPro.Services\\CocktailBookPro.Services.csproj"
+            },
+            "C:\\Users\\Nadi1\\source\\repos\\NadezhdaSavcheva\\CocktailBookProApplication\\CocktailBookPro\\CocktailBookPro\\CocktailBookPro.csproj": {
+              "projectPath": "C:\\Users\\Nadi1\\source\\repos\\NadezhdaSavcheva\\CocktailBookProApplication\\CocktailBookPro\\CocktailBookPro\\CocktailBookPro.csproj"
             }
           }
         }
