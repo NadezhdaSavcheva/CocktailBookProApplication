@@ -25,7 +25,7 @@ namespace CocktailBookPro.Services.DAO
         }
 
         /// <summary>
-        /// Adds new recipe in the data base.
+        /// Adds new recipe to the data base.
         /// </summary>
         /// <param name="name">The name of the recipe.</param>
         /// <param name="userID">The id of the user.</param>

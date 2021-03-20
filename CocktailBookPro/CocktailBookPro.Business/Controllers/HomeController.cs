@@ -25,7 +25,7 @@ namespace CocktailBookPro.Business
         /// </summary>
         /// <param name="username">The username of the user.</param>
         /// <param name="password">The password of the user.</param>
-        /// <returns></returns>
+        /// <returns>The id of the user.</returns>
         public int Login(string username, string password)
         {
             Users user = this.homeDAO.Login(username, password);
