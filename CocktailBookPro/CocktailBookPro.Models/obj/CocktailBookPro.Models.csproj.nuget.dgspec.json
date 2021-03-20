@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Nadi1\\Source\\Repos\\NadezhdaSavcheva\\CocktailBookProApplication\\CocktailBookPro\\CocktailBookPro.Models\\CocktailBookPro.Models.csproj": {}
+    "C:\\Users\\Nadi1\\source\\repos\\NadezhdaSavcheva\\CocktailBookProApplication\\CocktailBookPro\\CocktailBookPro.Models\\CocktailBookPro.Models.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Nadi1\\Source\\Repos\\NadezhdaSavcheva\\CocktailBookProApplication\\CocktailBookPro\\CocktailBookPro.Models\\CocktailBookPro.Models.csproj": {
+    "C:\\Users\\Nadi1\\source\\repos\\NadezhdaSavcheva\\CocktailBookProApplication\\CocktailBookPro\\CocktailBookPro.Models\\CocktailBookPro.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Nadi1\\Source\\Repos\\NadezhdaSavcheva\\CocktailBookProApplication\\CocktailBookPro\\CocktailBookPro.Models\\CocktailBookPro.Models.csproj",
+        "projectUniqueName": "C:\\Users\\Nadi1\\source\\repos\\NadezhdaSavcheva\\CocktailBookProApplication\\CocktailBookPro\\CocktailBookPro.Models\\CocktailBookPro.Models.csproj",
         "projectName": "CocktailBookPro.Models",
-        "projectPath": "C:\\Users\\Nadi1\\Source\\Repos\\NadezhdaSavcheva\\CocktailBookProApplication\\CocktailBookPro\\CocktailBookPro.Models\\CocktailBookPro.Models.csproj",
+        "projectPath": "C:\\Users\\Nadi1\\source\\repos\\NadezhdaSavcheva\\CocktailBookProApplication\\CocktailBookPro\\CocktailBookPro.Models\\CocktailBookPro.Models.csproj",
         "packagesPath": "C:\\Users\\Nadi1\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Nadi1\\Source\\Repos\\NadezhdaSavcheva\\CocktailBookProApplication\\CocktailBookPro\\CocktailBookPro.Models\\obj\\",
+        "outputPath": "C:\\Users\\Nadi1\\source\\repos\\NadezhdaSavcheva\\CocktailBookProApplication\\CocktailBookPro\\CocktailBookPro.Models\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

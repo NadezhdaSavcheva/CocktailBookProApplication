@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Nadi1\\Source\\Repos\\NadezhdaSavcheva\\CocktailBookProApplication\\CocktailBookPro\\CocktailBookPro.Business\\CocktailBookPro.Business.csproj": {}
+    "C:\\Users\\Nadi1\\source\\repos\\NadezhdaSavcheva\\CocktailBookProApplication\\CocktailBookPro\\CocktailBookPro.Business\\CocktailBookPro.Business.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Nadi1\\Source\\Repos\\NadezhdaSavcheva\\CocktailBookProApplication\\CocktailBookPro\\CocktailBookPro.Business\\CocktailBookPro.Business.csproj": {
+    "C:\\Users\\Nadi1\\source\\repos\\NadezhdaSavcheva\\CocktailBookProApplication\\CocktailBookPro\\CocktailBookPro.Business\\CocktailBookPro.Business.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Nadi1\\Source\\Repos\\NadezhdaSavcheva\\CocktailBookProApplication\\CocktailBookPro\\CocktailBookPro.Business\\CocktailBookPro.Business.csproj",
+        "projectUniqueName": "C:\\Users\\Nadi1\\source\\repos\\NadezhdaSavcheva\\CocktailBookProApplication\\CocktailBookPro\\CocktailBookPro.Business\\CocktailBookPro.Business.csproj",
         "projectName": "CocktailBookPro.Business",
-        "projectPath": "C:\\Users\\Nadi1\\Source\\Repos\\NadezhdaSavcheva\\CocktailBookProApplication\\CocktailBookPro\\CocktailBookPro.Business\\CocktailBookPro.Business.csproj",
+        "projectPath": "C:\\Users\\Nadi1\\source\\repos\\NadezhdaSavcheva\\CocktailBookProApplication\\CocktailBookPro\\CocktailBookPro.Business\\CocktailBookPro.Business.csproj",
         "packagesPath": "C:\\Users\\Nadi1\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Nadi1\\Source\\Repos\\NadezhdaSavcheva\\CocktailBookProApplication\\CocktailBookPro\\CocktailBookPro.Business\\obj\\",
+        "outputPath": "C:\\Users\\Nadi1\\source\\repos\\NadezhdaSavcheva\\CocktailBookProApplication\\CocktailBookPro\\CocktailBookPro.Business\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -32,11 +32,11 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\Nadi1\\Source\\Repos\\NadezhdaSavcheva\\CocktailBookProApplication\\CocktailBookPro\\CocktailBookPro.Models\\CocktailBookPro.Models.csproj": {
-                "projectPath": "C:\\Users\\Nadi1\\Source\\Repos\\NadezhdaSavcheva\\CocktailBookProApplication\\CocktailBookPro\\CocktailBookPro.Models\\CocktailBookPro.Models.csproj"
+              "C:\\Users\\Nadi1\\source\\repos\\NadezhdaSavcheva\\CocktailBookProApplication\\CocktailBookPro\\CocktailBookPro.Models\\CocktailBookPro.Models.csproj": {
+                "projectPath": "C:\\Users\\Nadi1\\source\\repos\\NadezhdaSavcheva\\CocktailBookProApplication\\CocktailBookPro\\CocktailBookPro.Models\\CocktailBookPro.Models.csproj"
               },
-              "C:\\Users\\Nadi1\\Source\\Repos\\NadezhdaSavcheva\\CocktailBookProApplication\\CocktailBookPro\\CocktailBookPro.Services\\CocktailBookPro.Services.csproj": {
-                "projectPath": "C:\\Users\\Nadi1\\Source\\Repos\\NadezhdaSavcheva\\CocktailBookProApplication\\CocktailBookPro\\CocktailBookPro.Services\\CocktailBookPro.Services.csproj"
+              "C:\\Users\\Nadi1\\source\\repos\\NadezhdaSavcheva\\CocktailBookProApplication\\CocktailBookPro\\CocktailBookPro.Services\\CocktailBookPro.Services.csproj": {
+                "projectPath": "C:\\Users\\Nadi1\\source\\repos\\NadezhdaSavcheva\\CocktailBookProApplication\\CocktailBookPro\\CocktailBookPro.Services\\CocktailBookPro.Services.csproj"
               }
             }
           }
@@ -69,14 +69,14 @@
         }
       }
     },
-    "C:\\Users\\Nadi1\\Source\\Repos\\NadezhdaSavcheva\\CocktailBookProApplication\\CocktailBookPro\\CocktailBookPro.Models\\CocktailBookPro.Models.csproj": {
+    "C:\\Users\\Nadi1\\source\\repos\\NadezhdaSavcheva\\CocktailBookProApplication\\CocktailBookPro\\CocktailBookPro.Models\\CocktailBookPro.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Nadi1\\Source\\Repos\\NadezhdaSavcheva\\CocktailBookProApplication\\CocktailBookPro\\CocktailBookPro.Models\\CocktailBookPro.Models.csproj",
+        "projectUniqueName": "C:\\Users\\Nadi1\\source\\repos\\NadezhdaSavcheva\\CocktailBookProApplication\\CocktailBookPro\\CocktailBookPro.Models\\CocktailBookPro.Models.csproj",
         "projectName": "CocktailBookPro.Models",
-        "projectPath": "C:\\Users\\Nadi1\\Source\\Repos\\NadezhdaSavcheva\\CocktailBookProApplication\\CocktailBookPro\\CocktailBookPro.Models\\CocktailBookPro.Models.csproj",
+        "projectPath": "C:\\Users\\Nadi1\\source\\repos\\NadezhdaSavcheva\\CocktailBookProApplication\\CocktailBookPro\\CocktailBookPro.Models\\CocktailBookPro.Models.csproj",
         "packagesPath": "C:\\Users\\Nadi1\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Nadi1\\Source\\Repos\\NadezhdaSavcheva\\CocktailBookProApplication\\CocktailBookPro\\CocktailBookPro.Models\\obj\\",
+        "outputPath": "C:\\Users\\Nadi1\\source\\repos\\NadezhdaSavcheva\\CocktailBookProApplication\\CocktailBookPro\\CocktailBookPro.Models\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -139,14 +139,14 @@
         }
       }
     },
-    "C:\\Users\\Nadi1\\Source\\Repos\\NadezhdaSavcheva\\CocktailBookProApplication\\CocktailBookPro\\CocktailBookPro.Services\\CocktailBookPro.Services.csproj": {
+    "C:\\Users\\Nadi1\\source\\repos\\NadezhdaSavcheva\\CocktailBookProApplication\\CocktailBookPro\\CocktailBookPro.Services\\CocktailBookPro.Services.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Nadi1\\Source\\Repos\\NadezhdaSavcheva\\CocktailBookProApplication\\CocktailBookPro\\CocktailBookPro.Services\\CocktailBookPro.Services.csproj",
+        "projectUniqueName": "C:\\Users\\Nadi1\\source\\repos\\NadezhdaSavcheva\\CocktailBookProApplication\\CocktailBookPro\\CocktailBookPro.Services\\CocktailBookPro.Services.csproj",
         "projectName": "CocktailBookPro.Services",
-        "projectPath": "C:\\Users\\Nadi1\\Source\\Repos\\NadezhdaSavcheva\\CocktailBookProApplication\\CocktailBookPro\\CocktailBookPro.Services\\CocktailBookPro.Services.csproj",
+        "projectPath": "C:\\Users\\Nadi1\\source\\repos\\NadezhdaSavcheva\\CocktailBookProApplication\\CocktailBookPro\\CocktailBookPro.Services\\CocktailBookPro.Services.csproj",
         "packagesPath": "C:\\Users\\Nadi1\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Nadi1\\Source\\Repos\\NadezhdaSavcheva\\CocktailBookProApplication\\CocktailBookPro\\CocktailBookPro.Services\\obj\\",
+        "outputPath": "C:\\Users\\Nadi1\\source\\repos\\NadezhdaSavcheva\\CocktailBookProApplication\\CocktailBookPro\\CocktailBookPro.Services\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
