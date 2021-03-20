@@ -1,10 +1,14 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using CocktailBookPro.Business.ViewModels;
 
-namespace CocktailBookPro.Business.Interfaces
+namespace CocktailBookPro.Business
 {
+    /// <summary>
+    /// Interface for user management.
+    /// </summary>
     interface IUserController
     {
+        void DeleteUserByID(int id);
+        RegistrationViewModel GetUserByID(int id);
+        void UpdateUser(int id);
     }
 }
