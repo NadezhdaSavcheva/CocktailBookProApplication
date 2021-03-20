@@ -1,50 +1,80 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
+﻿using CocktailBookPro.Business.Controllers;
+using CocktailBookPro.Models.ViewModels;
+using System;
+using System.Security.Cryptography;
 using System.Text;
-using System.Text.RegularExpressions;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace CocktailBookPro.Presenter
+namespace CocktailBookPro
 {
     public partial class RegisterForm : Form
     {
-        public RegisterForm()
+        private HomeController homeController;
+        public RegisterForm(HomeController homeController)
         {
             InitializeComponent();
+            this.homeController = homeController;
         }
 
+        /// <summary>
+        /// Returns to the login form
+        /// </summary>
+        private void backButton_Click(object sender, EventArgs e)
+        {
+            LoginForm loginForm = new LoginForm(this.homeController);
+            loginForm.Show();
+            this.Hide();
+        }
+
+        /// <summary>
+        /// Confirms registration and redirects to the home form
+        /// </summary>
+        private void nextButton_Click(object sender, EventArgs e)
+        {
+            string firstName = this.firstNameTextBox.Text;
+            string lastName = this.lastNameTextBox.Text;
+            string username = this.userNameTextBox.Text;
+            string password = this.passwordTextBox.Text;
+            string email = this.emailTextBox.Text;
+            string mobile = this.mobileTextBox.Text;
+            DateTime birthDate = this.birthDatePicker.Value;
+
+            RegistrationViewModel registrationViewModel = new RegistrationViewModel();
+            registrationViewModel.FirstName = firstName;
+            registrationViewModel.LastName = lastName;
+            registrationViewModel.Username = username;
+            registrationViewModel.PasswordHash = HashPassword(password);
+            registrationViewModel.Email = email;
+            registrationViewModel.MobilePhone = mobile;
+            registrationViewModel.Birthdate = birthDate;
+
+            this.homeController.Register(registrationViewModel);
+
+            HomeForm homeForm = new HomeForm();
+            homeForm.Show();
+            this.Hide();
+        }
+
+        /// <summary>
+        /// Checks whether the two passwords match
+        /// </summary>
         private void repeatPasswordTextBox_TextChanged(object sender, EventArgs e)
         {
-            if (this.passwordTextBox.Text != this.repeatPasswordTextBox.Text)
+            if (passwordTextBox.Text != repeatPasswordTextBox.Text && passwordTextBox.Text != null)
             {
-                this.errorsLabel.Text = "Паролите не съвпадат";
+                errorLabel.Visible = true;
+                errorLabel.Text = "Passwords don't match";
             }
             else
             {
-                this.errorsLabel.Text = "";
+                errorLabel.Visible = false;
             }
         }
-
-        private void backButton_Click(object sender, EventArgs e)
+        private string HashPassword(string password)
         {
-
-        }
-        // може да се преизползва за други полета, да се премести в Utils
-        private void firstNameTextBox_KeyPress(object sender, KeyPressEventArgs e)
-        {
-            var regex = new Regex(@"[^a-zA-Z\s]");
-            if (e.KeyChar != (char)Keys.Back)
-            {
-                if (regex.IsMatch(e.KeyChar.ToString()))
-                {
-                    e.Handled = true;
-                }
-            }
+            var provider = new SHA1CryptoServiceProvider();
+            var encoding = new UnicodeEncoding();
+            return Convert.ToBase64String(provider.ComputeHash(encoding.GetBytes(password)));
         }
     }
 }
