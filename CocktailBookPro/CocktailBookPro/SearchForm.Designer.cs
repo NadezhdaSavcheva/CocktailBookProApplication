@@ -1,5 +1,5 @@
 ﻿
-namespace CocktailBookPro.Presenter
+namespace CocktailBookPro
 {
     partial class SearchForm
     {
@@ -29,61 +29,65 @@ namespace CocktailBookPro.Presenter
         /// </summary>
         private void InitializeComponent()
         {
-            this.cocktailLabel = new System.Windows.Forms.Label();
-            this.searchTextBox = new System.Windows.Forms.TextBox();
-            this.criteriaComboBox = new System.Windows.Forms.ComboBox();
-            this.backButton = new System.Windows.Forms.Button();
+            this.welcomeLabel = new System.Windows.Forms.Label();
+            this.usernameTextBox = new System.Windows.Forms.TextBox();
+            this.userRadioButton = new System.Windows.Forms.RadioButton();
+            this.radioButton1 = new System.Windows.Forms.RadioButton();
             this.SuspendLayout();
             // 
-            // cocktailLabel
+            // welcomeLabel
             // 
-            this.cocktailLabel.AutoSize = true;
-            this.cocktailLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.cocktailLabel.Location = new System.Drawing.Point(317, 23);
-            this.cocktailLabel.Name = "cocktailLabel";
-            this.cocktailLabel.Size = new System.Drawing.Size(122, 31);
-            this.cocktailLabel.TabIndex = 3;
-            this.cocktailLabel.Text = "Търсене";
-            this.cocktailLabel.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.welcomeLabel.AutoSize = true;
+            this.welcomeLabel.Font = new System.Drawing.Font("Segoe UI", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.welcomeLabel.Location = new System.Drawing.Point(287, 9);
+            this.welcomeLabel.Name = "welcomeLabel";
+            this.welcomeLabel.Size = new System.Drawing.Size(119, 37);
+            this.welcomeLabel.TabIndex = 1;
+            this.welcomeLabel.Text = "Търсене";
             // 
-            // searchTextBox
+            // usernameTextBox
             // 
-            this.searchTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.searchTextBox.Location = new System.Drawing.Point(150, 69);
-            this.searchTextBox.Name = "searchTextBox";
-            this.searchTextBox.Size = new System.Drawing.Size(313, 26);
-            this.searchTextBox.TabIndex = 4;
+            this.usernameTextBox.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.usernameTextBox.Location = new System.Drawing.Point(268, 51);
+            this.usernameTextBox.Name = "usernameTextBox";
+            this.usernameTextBox.Size = new System.Drawing.Size(435, 35);
+            this.usernameTextBox.TabIndex = 8;
             // 
-            // criteriaComboBox
+            // userRadioButton
             // 
-            this.criteriaComboBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.criteriaComboBox.FormattingEnabled = true;
-            this.criteriaComboBox.Location = new System.Drawing.Point(469, 67);
-            this.criteriaComboBox.Name = "criteriaComboBox";
-            this.criteriaComboBox.Size = new System.Drawing.Size(108, 28);
-            this.criteriaComboBox.TabIndex = 5;
+            this.userRadioButton.AutoSize = true;
+            this.userRadioButton.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.userRadioButton.Location = new System.Drawing.Point(149, 51);
+            this.userRadioButton.Name = "userRadioButton";
+            this.userRadioButton.Size = new System.Drawing.Size(113, 25);
+            this.userRadioButton.TabIndex = 9;
+            this.userRadioButton.TabStop = true;
+            this.userRadioButton.Text = "Потребител";
+            this.userRadioButton.UseVisualStyleBackColor = true;
             // 
-            // backButton
+            // radioButton1
             // 
-            this.backButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.backButton.Location = new System.Drawing.Point(150, 381);
-            this.backButton.Name = "backButton";
-            this.backButton.Size = new System.Drawing.Size(146, 49);
-            this.backButton.TabIndex = 10;
-            this.backButton.Text = "Назад";
-            this.backButton.UseVisualStyleBackColor = true;
+            this.radioButton1.AutoSize = true;
+            this.radioButton1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.radioButton1.Location = new System.Drawing.Point(175, 82);
+            this.radioButton1.Name = "radioButton1";
+            this.radioButton1.Size = new System.Drawing.Size(87, 25);
+            this.radioButton1.TabIndex = 10;
+            this.radioButton1.TabStop = true;
+            this.radioButton1.Text = "Рецепта";
+            this.radioButton1.UseVisualStyleBackColor = true;
             // 
             // SearchForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(784, 461);
-            this.Controls.Add(this.backButton);
-            this.Controls.Add(this.criteriaComboBox);
-            this.Controls.Add(this.searchTextBox);
-            this.Controls.Add(this.cocktailLabel);
+            this.Controls.Add(this.radioButton1);
+            this.Controls.Add(this.userRadioButton);
+            this.Controls.Add(this.usernameTextBox);
+            this.Controls.Add(this.welcomeLabel);
             this.Name = "SearchForm";
-            this.Text = "Търсене";
+            this.Text = "SearchForm";
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -91,9 +95,9 @@ namespace CocktailBookPro.Presenter
 
         #endregion
 
-        private System.Windows.Forms.Label cocktailLabel;
-        private System.Windows.Forms.TextBox searchTextBox;
-        private System.Windows.Forms.ComboBox criteriaComboBox;
-        private System.Windows.Forms.Button backButton;
+        private System.Windows.Forms.Label welcomeLabel;
+        private System.Windows.Forms.TextBox usernameTextBox;
+        private System.Windows.Forms.RadioButton userRadioButton;
+        private System.Windows.Forms.RadioButton radioButton1;
     }
 }
